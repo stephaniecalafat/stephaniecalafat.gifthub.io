@@ -1,0 +1,320 @@
+/*General formatting*/ 
+
+div{
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 960px; margin: auto;
+    color:#3f292b;
+}
+
+img{
+    border-radius: 5px;
+}
+
+p {
+    line-height:2em;
+}
+
+ul {
+    line-height:2em;
+}
+
+
+h1{ 
+    color:floralwhite;
+}
+
+h2,h5,h6 {
+    color:#d34f73;
+    text-align: center;
+}
+
+h4 {
+    color:#db7f67;
+    text-align: center;
+}
+
+.titleframe h3{
+    color:floralwhite;
+}
+
+/*Styling the navigation bar*/
+
+nav ul {
+	display: flex;
+	list-style-type: none;  
+}
+
+nav ul a {
+	text-decoration: none;
+	padding: 25px;
+	color: #d34f73;
+}
+
+nav ul a:hover{
+    color:#3f292b;
+    font-weight:bold;
+}
+
+.logo{
+    font-family: 'Croissant One', cursive; 
+    color:#3f292b;
+    
+}
+.menu {
+    border: 1px solid #3f292b;
+  
+}
+
+/*Styling the title frames*/
+
+.titleframe{
+    background-color:#d34f73;
+    text-align:center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin:0%;
+}
+
+
+/*Styling the buttons*/
+
+.button{
+    background-color:#d34f73;
+    padding:15px;
+    text-align: center;
+    color:floralwhite;
+    border-radius: 2px;
+    display: block;
+    margin:10px auto;
+    border: 0px;
+    font-size:1.1rem;
+}
+
+.button a{
+        text-decoration: none;
+        color: floralwhite;
+        
+}
+
+.button:hover {
+   background-color:#db7f67;
+    color:#3f292b;
+    font-weight: bold;
+}
+
+/*Specific to the story page*/
+
+.me{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;  
+    margin-top:0%;
+}
+
+.text{
+    margin-top:0%;
+}
+
+.textphoto, .text,.adventure,.subbox,.nswebsite{
+    padding:0% 2%;
+}
+
+
+.giantbox{
+    display:flex;
+    flex-direction: column; 
+    padding-left: 15%;
+    padding-right: 15%;
+    border-top: 1px solid #db7f67;
+}
+
+
+.nextstep{
+    display:flex;
+    padding:0%;
+    margin-top:0%;
+}
+
+.nswebsite{
+    width:50%;
+    margin: 0%;
+}
+
+.nspastryadventure{
+    width:50%;
+    margin: 0%;
+    padding-left:4%;
+}
+
+.adventure{
+     border-top: 1px solid #db7f67;
+}
+
+.passionimg{
+    text-align:center;
+}
+
+
+
+/* Common to several pages (puffpastry, viennoiserie and choux pastry)*/ 
+
+.bigdivision{
+    display:flex;
+    flex-direction: column;
+    margin-top:0%;
+}
+
+.bigdivision h3{
+    text-align: center;
+}
+
+.cake{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #db7f67;
+    margin-top:0%;
+}
+.cake h2{
+    margin-top:0%;
+}
+
+.photo{
+    width:35%;
+    align-self: flex-start;
+}
+
+.photo img{
+    width:100%
+}
+.description{
+    width:40%;
+    padding-left:2%;
+}
+
+.options{
+    width:25%;
+    padding-left:2%;
+}
+
+.options h4{
+    margin-top: 0%;
+    padding-top:0%;
+    text-align: center;
+}
+
+.options li:hover{
+    color:#db7f67;
+}
+/* Specific to Choux pastry page */ 
+
+
+.cake2{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+/*Specific to Viennoiserie page */ 
+
+.viennoiserie{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #db7f67;
+}
+
+.viennoiserietext{
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right:3%;
+    text-align: center;
+}
+
+.viennoiserietext2{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right:0%;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.viennoiseriephoto,.viennoiserietext{
+    margin-top:0%;
+}
+
+
+/*Specific to the Tart page*/ 
+
+.fruittarts{
+    display:flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #db7f67;
+    margin-top:0%;
+}
+
+.tartphoto{
+    align-self: center;
+}
+
+.emphasize{
+    color:#d34f73;  
+}
+
+.biggroup{
+    display:flex;
+    flex-direction: column;
+    border-bottom: 1px solid #db7f67;
+}
+
+.chocolatetart h2, .applepie h2{
+    color:floralwhite;
+}
+
+.applepie{
+    background-image: url(img/applepie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:8%;
+}
+
+.lemontart{
+    background-image: url(img/lemonpie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:12%;
+}
+
+.chocolatetart{
+    background-image: url(img/chocolatetart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:12%;
+}
+
+.tartdescription {
+   padding-left:2%;
+    padding-right:1%;
+    margin-top:0%;
+}
+
+/*Specific Contact page*/
+
+.contact{
+    padding:0 10%;
+    border-bottom:1px solid #db7f67;
+    text-align: center;
+}
+
+.input{
+    text-align: center;
+}
+
+
